@@ -1,0 +1,130 @@
+li {
+    list-style: none;
+}
+
+.w { 
+	width: 1200px;  
+	margin: 0 auto;  
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;  
+	font-size: 12px;
+	color: #999;
+}
+input,button {
+	border: 0;
+	outline: none; 
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+body {
+    background: #f7f7f7;
+}
+/* 公共样式结束 */
+
+.head {
+    height: 30px;
+    background: #009b73;
+}
+
+ .fr ul li {
+    float: right;
+    height: 30px;
+    width: 67px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    border-left: 1px solid #f0f8e3;
+   
+} 
+
+/* 上侧导航栏结束 */
+
+.nav {
+   
+    background: #fff;
+    height: 80px;
+}
+.img {
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.fr-1 li {
+    float: right;
+    line-height: 80px;
+    text-align: center;
+    margin: 0px 20px;
+    font-size: 12px;
+    color: #7d7b80;
+}
+/* 导航栏结束 */
+  .sy {
+     margin-top: 16px;
+     font-size: 12px;
+     color: #7d7b80;
+}
+
+.submenu {
+    float: left;
+    width: 783px;
+}
+.submenu .r9 {
+    margin-bottom: 6px;
+}
+
+.fr-2 img {
+    float: left;
+}
+.box {
+    margin-top: 10px;
+}
+/* 版心结束 */
+
+.title {
+   margin-top: 90px; 
+}
+.title .solid {
+    float: left;
+    width: 490px;
+    border: 0.5px solid #7d7b80; 
+    margin: 16px 0;
+}
+
+.title .wz p {
+    float: left;
+    margin: 0 40px;
+}  
+.title .solid-1 {
+    float: left;
+    width: 490px;
+    border: 0.5px solid #7d7b80;
+    margin: 16px 0;
+}
+
+.clearfix:before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
